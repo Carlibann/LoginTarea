@@ -1,0 +1,65 @@
+<html>
+<head>
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<title>HTML Base</title>
+</head>
+<body style="background:#eee;">
+
+<form action="" class="card">
+  <h1>Registro en nuestra tienda</h1>
+	<p class="form-grup">
+		<label for="username">Nombre de usuario</label>
+		<br>
+		<input class="mod" type="text" name="username" placeholder="Ej: luis" autofocus required>
+	</p>
+	<p class="form-grup">
+		<label for="email">Email: </label>
+		<br>
+		<input class="mod" type="email" name="email" placeholder="Ej: luis@gmail.com" required>
+	</p>
+	<p class="form-grup">
+		<label for="age">Edad: </label>
+		<br>
+		<input class="mod" type="number" name="age" placeholder="Ej: 21" required>
+	</p>
+	<p class="form-grup">
+		<label for="dob">Fecha de nacimiento: </label>
+		<br>
+		<input class="mod" type="date" name="dob" placeholder="Ej: 21" >
+	</p>
+	<p class="form">
+		<label for="genre">G&eacute;nero: </label>
+		<br>
+		<input type="radio" name="genre"> Masculino
+		<br>
+		<input type="radio" name="genre"> Femenino
+	</p>
+	<p class="form-grup">
+		<label for="recommend">Recomendado por: </label>
+		<br>
+		<select name="recommend">
+			<option value="1">Google</option>
+			<option value="1">Amigo</option>
+			<option value="1">Redes Sociales</option>
+		</select>
+	</p>
+	<p class="form-grup">
+		<label for="comment">Comentarios: </label>
+		<br>
+		<textarea name="comment" id="" cols="30" rows="3"></textarea>
+	</p>
+  <div class="d-flex">
+    <input type="checkbox" name="accept">
+    <p>
+		<label for="accept">Acepto terminos y condiciones: </label>
+	</p>
+  </div>
+	<br>
+
+	<p class="text-center">
+		<input class="btn btn-mr" type="submit" value="Registrar">
+	</p>
+</form>
+
+</body>
+</html>
